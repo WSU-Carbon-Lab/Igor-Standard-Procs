@@ -1,0 +1,16 @@
+IGOR
+
+X NewPath/O/Q/Z sourceFldr, S_Path
+X NewPath/O/Q/Z ProcedureFolder, S_Path+"NRS_Procedures:"
+X NewPath/O/Q/Z MacroFolder, S_Path+"Macro"
+
+
+X String/G Pro=SpecialDirPath("Igor Pro User files",0,0,0)+"Igor Procedures:"
+X String/G Usr=SpecialDirPath("Igor Pro User files",0,0,0)+"User Procedures:"
+X String/G NRS_Lib=SpecialDirPath("Igor Pro User files",0,0,0)+"User Procedures:NRS_Procedures"
+
+
+X CopyFile/D/P=MacroFolder/O/Z "Boot_RSoXS_Analysis.ipf" as Pro
+X CopyFolder/O/Z/P=ProcedureFolder as NRS_Lib
+
+X DoAlert 0, "11.0.1.2 Data Reduction Panel has been successfully downloaded. \r You will need to restart IGOR to finish installation."

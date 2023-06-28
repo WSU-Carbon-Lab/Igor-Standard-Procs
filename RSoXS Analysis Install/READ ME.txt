@@ -1,0 +1,9 @@
+Thank you for downloading 11.0.1.2 Data Reduction Panel
+
+You must have Igor version 7.05+ and NIKA ver. 1.79+ to continue with installation. Please download with the links below before continuing
+
+Igor version 7.05+ - http://wavemetrics.com/
+NIKA version 1.79+ - https://usaxs.xray.aps.anl.gov/software/nika
+
+For basic installation:
+	Unzip files if not already done and run 'Install RSoXS Analysis'.
