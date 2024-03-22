@@ -315,6 +315,7 @@ FUNCTION PlotFunc(yWave, xWave, windowSuffix)
 	endif
 	SetAxis/A
 	ModifyGraph lsize=2
+	ModifyGraph log(left)=1
 END
 
 ///////////////////Below Functions are Copied from KBColorizeTraces.ipf
